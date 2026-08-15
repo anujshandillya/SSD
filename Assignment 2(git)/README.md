@@ -48,7 +48,10 @@ git commit -m "<commit_message>"
 
 ## **Part 5:** `Build 4 feature branches (login, profile, dashboard, settings) with 4-5 commits each and merge all.`
 ```shell
-
+git branch -M login
+git branch -M profile
+git branch -M dashboard
+git branch -M settings
 ```
 
 ## **Part 6:** ` Create unfinished changes, stash them, switch to another branch, return to the original branch, and reapply the stashed changes.`
