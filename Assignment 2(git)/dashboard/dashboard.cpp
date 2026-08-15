@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void showProfile() {
+void showDashboard() {
     cout << "Dashboard" << endl;
 }
 
@@ -15,4 +15,13 @@ void showOrders() {
 
 void showRevenue() {
     cout << "Revenue: 50000" << endl;
+}
+
+int main() {
+    showDashboard();
+    showUsers();
+    showOrders();
+    showRevenue();
+
+    return 0;
 }
