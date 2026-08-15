@@ -4,3 +4,7 @@ using namespace std;
 void showProfile() {
     cout << "User Profile" << endl;
 }
+
+void showName() {
+    cout << "Name: Anuj" << endl;
+}
