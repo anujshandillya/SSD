@@ -66,5 +66,15 @@ git stash push -m "<stash_label>"
 
 ## **Part 8 & 9:** `Manually resolve created branch conflicts and release annotated tag v1.0`
 ```shell
+git checkout branch_1
+git merge branch_2
 
+git diff
+
+git checkout --ours <file>
+git checkout --theirs <file>
+
+git add <file>
+
+git commit -m "<commit_message>"
 ```
