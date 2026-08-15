@@ -12,3 +12,7 @@ void showUsers() {
 void showOrders() {
     cout << "Orders: 250" << endl;
 }
+
+void showRevenue() {
+    cout << "Revenue: 50000" << endl;
+}
