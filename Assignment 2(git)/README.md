@@ -9,13 +9,18 @@ git commit -m "first commit"
 ```
 
 ## **Part 2:** ` Enhance README.md with setup instructions (Rule: Min 6 separate commits).`
-```shell
 
-```
+- Edit README.md file with setup instruction of the git repository.
 
 ## **Part 3:** `Build feature branch, create code files (e.g., main.cpp), and merge to main.`
 ```shell
+git branch -M feature
+git checkout -b feature
 
+touch main.cpp
+
+git add main.cpp
+git commit -m "<commit_msg>"
 ```
 
 ## **Part 4:** `Rename, move, delete, and restore files while preserving full history lineage.`
