@@ -16,3 +16,12 @@ void notificationSettings() {
 void privacySettings() {
     cout << "Privacy settings" << endl;
 }
+
+int main() {
+    showSettings();
+    accountSettings();
+    notificationSettings();
+    privacySettings();
+
+    return 0;
+}
