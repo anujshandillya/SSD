@@ -16,3 +16,12 @@ void showEmail() {
 void editProfile() {
     cout << "Profile editing enabled" << endl;
 }
+
+int main() {
+    showProfile();
+    showName();
+    showEmail();
+    editProfile();
+
+    return 0;
+}
