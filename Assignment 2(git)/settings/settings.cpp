@@ -8,3 +8,7 @@ void showSettings() {
 void accountSettings() {
     cout << "Account settings" << endl;
 }
+
+void notificationSettings() {
+    cout << "Notification settings" << endl;
+}
