@@ -24,8 +24,26 @@ git commit -m "<commit_msg>"
 ```
 
 ## **Part 4:** `Rename, move, delete, and restore files while preserving full history lineage.`
-```shell
 
+- ### Rename
+```shell
+git mv main.cpp main_rename.cpp
+git commit -m "<commit_message>"
+```
+- ### Move
+```shell
+git mv main.cpp main_rename.cpp
+git commit -m "<commit_message>"
+```
+- ### Delete
+```shell
+git rm main_rename.cpp
+git commit -m "<commit_message>"
+```
+- ### Restore
+```shell
+git restore --source=<commit_address> -- main_rename.cpp
+git commit -m "<commit_message>"
 ```
 
 ## **Part 5:** `Build 4 feature branches (login, profile, dashboard, settings) with 4-5 commits each and merge all.`
