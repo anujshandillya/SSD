@@ -8,3 +8,7 @@ void showProfile() {
 void showName() {
     cout << "Name: Anuj" << endl;
 }
+
+void showEmail() {
+    cout << "Email: anuj.sharma@students.iiit.ac.in" << endl;
+}
