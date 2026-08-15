@@ -12,3 +12,7 @@ void accountSettings() {
 void notificationSettings() {
     cout << "Notification settings" << endl;
 }
+
+void privacySettings() {
+    cout << "Privacy settings" << endl;
+}
