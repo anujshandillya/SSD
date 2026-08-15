@@ -12,3 +12,7 @@ void showName() {
 void showEmail() {
     cout << "Email: anuj.sharma@students.iiit.ac.in" << endl;
 }
+
+void editProfile() {
+    cout << "Profile editing enabled" << endl;
+}
