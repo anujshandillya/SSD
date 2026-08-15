@@ -56,7 +56,7 @@ git branch -M settings
 
 ## **Part 6:** ` Create unfinished changes, stash them, switch to another branch, return to the original branch, and reapply the stashed changes.`
 ```shell
-
+git stash push -m "<stash_label>"
 ```
 
 ## **Part 7:** `Resolve 3 specific mistakes (wrong message, misplaced commits, reflog recovery).`
